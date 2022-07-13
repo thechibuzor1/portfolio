@@ -1,0 +1,32 @@
+import React from "react";
+import { BsLinkedin, BsGithub, BsDribbble } from "react-icons/bs";
+
+const HeaderSocials = () => {
+  return (
+    <div className="header__socials">
+      <a
+        href="https://www.linkedin.com/in/chibuzor-moses-311b44173/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <BsLinkedin />
+      </a>
+      <a
+        href="https://github.com/thechibuzor1"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <BsGithub />
+      </a>
+      <a
+        href="https://dribbble.com/buzz344"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <BsDribbble />
+      </a>
+    </div>
+  );
+};
+
+export default HeaderSocials;

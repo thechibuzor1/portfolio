@@ -32,6 +32,10 @@
     margin-bottom: 1rem;
 } 
 
+.portfolio__item h5{
+    margin-bottom: 30px;
+}
+
 /*  MEDIA QUERIES (MEDIUM DEVICES) */
  @media screen and (max-width: 1024px) {
    .portfolio__container{

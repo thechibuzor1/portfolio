@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import ME from "../../assests/me-about.jpg";
+import art from "../../assests/10.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -21,23 +22,23 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1+ Years Working</small>
+              <small>1+ Years Working.</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>10+ Worldwide</small>
+              <small>10+ Worldwide.</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>50+ Completed</small>
+              <small>50+ Completed.</small>
             </article>
             <a
               href="http://thechibuzorart.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
-              >
+            >
               <article className="art">
                 <img src={art} className="img" alt="my art" />
                 <h5>My Art hub</h5>

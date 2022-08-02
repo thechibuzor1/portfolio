@@ -50,6 +50,15 @@ const data = [
     demo: UberEats,
     description: "A Restuarant E-commerce App With Firebase Written in React Native."
   },
+   {
+    id: 6,
+    image: IMG6,
+    title: "Netflix Clone",
+    github: "https://github.com/thechibuzor1/netflix-clone",
+    demo: "http://netflix-remake.herokuapp.com",
+    description:
+      "A Full Stack Netflix Clone Written in React With MongoDb and nodejs backend.",
+  },
 ];
 
 const Portfolio = () => {

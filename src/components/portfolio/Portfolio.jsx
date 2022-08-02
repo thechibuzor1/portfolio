@@ -5,6 +5,7 @@ import IMG2 from "../../assests/portfolio2.jpg";
 import IMG3 from "../../assests/portfolio3.jpg";
 import IMG4 from "../../assests/portfolio4.jpg";
 import IMG5 from "../../assests/portfolio5.jpg";
+import IMG6 from "../../assests/netflix.png";
 import WeatherApp from "../../assests/Weather.apk";
 import UberEats from "../../assests/UberEats.apk";
 import Todo from "../../assests/Todo.apk";

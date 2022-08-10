@@ -12,7 +12,7 @@ import Todo from "../../assests/Todo.apk";
 
 const data = [
   {
-    id: 1,
+    id: 6,
     image: IMG1,
     title: "Weather App",
     github: "https://github.com/thechibuzor1/Weather-app",
@@ -28,7 +28,7 @@ const data = [
     description: "A Full Stack MERN E-commerce Gym Web App."
   },
   {
-    id: 3,
+    id: 4,
     image: IMG3,
     title: "Chat App",
     github: "https://github.com/thechibuzor1/chat-app",
@@ -36,7 +36,7 @@ const data = [
     description: "A Full Stack Realtime Chat Messaging App With Authentication & SMS Notification."
   },
   {
-    id: 4,
+    id: 5,
     image: IMG4,
     title: "Todo App",
     github: "https://github.com/thechibuzor1/Todo-list",
@@ -44,7 +44,7 @@ const data = [
     description: "A simple UI Todo App Written In React Native With Async Storage."
   },
   {
-    id: 5,
+    id: 3,
     image: IMG5,
     title: "Uber Eats Clone",
     github: "https://github.com/thechibuzor1/UberEats-v1.1",
@@ -52,7 +52,7 @@ const data = [
     description: "A Restuarant E-commerce App With Firebase Written in React Native."
   },
    {
-    id: 6,
+    id: 1,
     image: IMG6,
     title: "Netflix Clone",
     github: "https://github.com/thechibuzor1/netflix-clone",

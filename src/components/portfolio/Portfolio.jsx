@@ -7,6 +7,7 @@ import IMG4 from "../../assests/portfolio4.jpg";
 import IMG5 from "../../assests/portfolio5.jpg";
 import IMG6 from "../../assests/netflix.png";
 import IMG7 from "../../assests/netflixApp.jpg";
+import IMG8 from "../../assests/Spot.png";
 
 const data = [
   {
@@ -29,6 +30,14 @@ const data = [
   },
   {
     id: 3,
+    image: IMG8,
+     title: "Spotify Remote Contoller",
+    github: "https://github.com/thechibuzor1/nextJs-spotify",
+    demo: "https://spotify-remote-controller.vercel.app/",
+    description: "A NextJs and TailwindCSS build connected to SpotifyApi with NextAuth, Middleware and Recoil (Must have a spotify account to use).",
+  },
+  {
+    id: 4,
     image: IMG2,
     title: "Project Gym",
     github: "https://github.com/thechibuzor1/project_gym",
@@ -36,7 +45,7 @@ const data = [
     description: "A Full Stack MERN E-commerce Gym Web App.",
   },
   {
-    id: 4,
+    id: 5,
     image: IMG5,
     title: "Uber Eats Clone",
     github: "https://github.com/thechibuzor1/UberEats-v1.1",
@@ -45,7 +54,7 @@ const data = [
       "A Restuarant E-commerce App Written in React Native With Firebase Database and authentication.",
   },
   {
-    id: 5,
+    id: 6,
     image: IMG3,
     title: "Chat App",
     github: "https://github.com/thechibuzor1/chat-app",
@@ -54,7 +63,7 @@ const data = [
       "A Full Stack Realtime Chat Messaging App With Authentication & SMS Notification.",
   },
   {
-    id: 6,
+    id: 7,
     image: IMG1,
     title: "Weather App",
     github: "https://github.com/thechibuzor1/Weather-app",
@@ -63,7 +72,7 @@ const data = [
   },
 
   {
-    id: 7,
+    id: 8,
     image: IMG4,
     title: "Todo App",
     github: "https://github.com/thechibuzor1/Todo-list",

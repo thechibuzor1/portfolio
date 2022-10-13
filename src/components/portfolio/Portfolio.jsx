@@ -8,6 +8,7 @@ import IMG5 from "../../assests/portfolio5.jpg";
 import IMG6 from "../../assests/netflix.png";
 import IMG7 from "../../assests/netflixApp.jpg";
 import IMG8 from "../../assests/Spot.png";
+import IMG9 from "../../assests/twitter.png";
 
 const data = [
   {
@@ -27,6 +28,14 @@ const data = [
     demo: "https://mega.nz/file/QjRFCSaY#tP39KvSM3-VASNYPUCKEbzoImB9xJY0-zo5_n9NBwtw",
     description:
       "A Full Stack Netflix Clone Written in React Native With MongoDb and nodejs backend.",
+  },
+   {
+    id: 4,
+    image: IMG9,
+     title: "Twitter 2.0",
+    github: "https://github.com/thechibuzor1/NextJs-twitter",
+    demo: "https://nextjstwitter.vercel.app/",
+    description: "A NextJs and TailwindCSS build based off Twitter Ui with next auth, cloudinary API and sanity backend",
   },
   {
     id: 3,

@@ -30,7 +30,7 @@ const data = [
       "A Full Stack Netflix Clone Written in React Native With MongoDb and nodejs backend.",
   },
    {
-    id: 4,
+    id: 3,
     image: IMG9,
      title: "Twitter 2.0",
     github: "https://github.com/thechibuzor1/NextJs-twitter",
@@ -38,7 +38,7 @@ const data = [
     description: "A NextJs and TailwindCSS build based off Twitter Ui with next auth, cloudinary API and sanity backend",
   },
   {
-    id: 3,
+    id: 4,
     image: IMG8,
      title: "Spotify Remote Contoller",
     github: "https://github.com/thechibuzor1/nextJs-spotify",
@@ -46,7 +46,7 @@ const data = [
     description: "A NextJs and TailwindCSS build connected to SpotifyApi with NextAuth, Middleware and Recoil (Must have a spotify account to use).",
   },
   {
-    id: 4,
+    id: 5,
     image: IMG2,
     title: "Project Gym",
     github: "https://github.com/thechibuzor1/project_gym",
@@ -54,7 +54,7 @@ const data = [
     description: "A Full Stack MERN E-commerce Gym Web App.",
   },
   {
-    id: 5,
+    id: 6,
     image: IMG5,
     title: "Uber Eats Clone",
     github: "https://github.com/thechibuzor1/UberEats-v1.1",
@@ -63,7 +63,7 @@ const data = [
       "A Restuarant E-commerce App Written in React Native With Firebase Database and authentication.",
   },
   {
-    id: 6,
+    id: 7,
     image: IMG3,
     title: "Chat App",
     github: "https://github.com/thechibuzor1/chat-app",
@@ -72,7 +72,7 @@ const data = [
       "A Full Stack Realtime Chat Messaging App With Authentication & SMS Notification.",
   },
   {
-    id: 7,
+    id: 8,
     image: IMG1,
     title: "Weather App",
     github: "https://github.com/thechibuzor1/Weather-app",
@@ -81,7 +81,7 @@ const data = [
   },
 
   {
-    id: 8,
+    id: 9,
     image: IMG4,
     title: "Todo App",
     github: "https://github.com/thechibuzor1/Todo-list",

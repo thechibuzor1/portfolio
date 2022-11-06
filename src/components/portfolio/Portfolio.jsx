@@ -9,6 +9,7 @@ import IMG6 from "../../assests/netflix.png";
 import IMG7 from "../../assests/netflixApp.jpg";
 import IMG8 from "../../assests/Spot.png";
 import IMG9 from "../../assests/twitter.png";
+import IMG10 from "../../assests/octocat.png";
 
 const data = [
   {
@@ -55,6 +56,15 @@ const data = [
   },
   {
     id: 6,
+    image: IMG10,
+    title: "Reuben",
+    github: "https://github.com/thechibuzor1/Reuben",
+    demo: "https://mega.nz/file/UihFBKhD#7v-WyLQ-ZP0-VQlG_a7cvFHRB42VLoQVOZ3jWa8bLUI",
+    description:
+      "A Personalized Workout Routine App With Push Notifications Written In React Native.",
+  },
+  {
+    id: 7,
     image: IMG5,
     title: "Uber Eats Clone",
     github: "https://github.com/thechibuzor1/UberEats-v1.1",
@@ -63,7 +73,7 @@ const data = [
       "A Restuarant E-commerce App Written in React Native With Firebase Database and authentication.",
   },
   {
-    id: 7,
+    id: 8,
     image: IMG3,
     title: "Chat App",
     github: "https://github.com/thechibuzor1/chat-app",
@@ -72,7 +82,7 @@ const data = [
       "A Full Stack Realtime Chat Messaging App With Authentication & SMS Notification.",
   },
   {
-    id: 8,
+    id: 9,
     image: IMG1,
     title: "Weather App",
     github: "https://github.com/thechibuzor1/Weather-app",
@@ -81,7 +91,7 @@ const data = [
   },
 
   {
-    id: 9,
+    id: 10,
     image: IMG4,
     title: "Todo App",
     github: "https://github.com/thechibuzor1/Todo-list",

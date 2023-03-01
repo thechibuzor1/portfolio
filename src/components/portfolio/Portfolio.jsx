@@ -17,7 +17,7 @@ const data = [
     image: IMG6,
     title: "Netflix Clone(Web)",
     github: "https://github.com/thechibuzor1/netflix-clone",
-    demo: "http://netflix-remake.herokuapp.com",
+    demo: "https://netflix-sample.netlify.app/",
     description:
       "A Full Stack Netflix Clone Written in ReactJS With MongoDb and nodejs backend.",
   },

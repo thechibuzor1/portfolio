@@ -34,9 +34,9 @@ const data = [
   {
     id: 3,
     image: IMG7,
-    title: "Netflix Clone(React Native, Js)",
+    title: "Netflix Clone(React Native, Js, NodeJs, MongoDB)",
     github: "https://github.com/thechibuzor1/Netflix-app-react-native",
-    demo: "https://mega.nz/file/QjRFCSaY#tP39KvSM3-VASNYPUCKEbzoImB9xJY0-zo5_n9NBwtw",
+    demo: "https://mega.nz/file/AyJxlTpZ#_wyWkU_XqaLdG-bhCrd0wRC2CAAT0mPYTJWr7oaYtrA",
     description:
       "A Full Stack Netflix Clone Written in React Native With MongoDb and nodejs backend.",
   },

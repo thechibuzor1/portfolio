@@ -16,7 +16,7 @@ const data = [
   {
     id: 1,
     image: IMG6,
-    title: "Netflix Clone(Web)",
+    title: "Netflix Clone(ReactJs, NodeJs, MongoDb)",
     github: "https://github.com/thechibuzor1/netflix-clone",
     demo: "https://netflix-sample.netlify.app/",
     description:
@@ -25,7 +25,7 @@ const data = [
   {
     id: 2,
     image: IMG11,
-    title: "Take Your Pills!(APK)",
+    title: "Take Your Pills!(React Native, Ts)",
     github: "https://github.com/thechibuzor1/takeyourpills",
     demo: "https://mega.nz/file/5nJVUR7B#V_o24DS_gjXlnrPztOFAR1p_WWKNpFH3WvFuOqIYPOk",
     description:
@@ -34,7 +34,7 @@ const data = [
   {
     id: 3,
     image: IMG7,
-    title: "Netflix Clone(APK)",
+    title: "Netflix Clone(React Native, Js)",
     github: "https://github.com/thechibuzor1/Netflix-app-react-native",
     demo: "https://mega.nz/file/QjRFCSaY#tP39KvSM3-VASNYPUCKEbzoImB9xJY0-zo5_n9NBwtw",
     description:
@@ -43,7 +43,7 @@ const data = [
    {
     id: 4,
     image: IMG9,
-     title: "Twitter 2.0",
+     title: "Twitter 2.0(Next Js, Sanity)",
     github: "https://github.com/thechibuzor1/NextJs-twitter",
     demo: "https://nextjstwitter.vercel.app/",
     description: "A NextJs and TailwindCSS build based off Twitter Ui with next auth, cloudinary API and sanity backend",
@@ -51,7 +51,7 @@ const data = [
   {
     id: 5,
     image: IMG8,
-     title: "Spotify Remote Contoller",
+     title: "Spotify Remote Contoller(Next Js)",
     github: "https://github.com/thechibuzor1/nextJs-spotify",
     demo: "https://spotify-remote-controller.vercel.app/",
     description: "A NextJs and TailwindCSS build connected to SpotifyApi with NextAuth, Middleware and Recoil (Must have a spotify account to use).",
@@ -59,7 +59,7 @@ const data = [
   {
     id: 6,
     image: IMG2,
-    title: "Project Gym",
+    title: "Project Gym(ReactJs, NodeJs, MongoDb)",
     github: "https://github.com/thechibuzor1/project_gym",
     demo: "https://project-gym-app.herokuapp.com/",
     description: "A Full Stack MERN E-commerce Gym Web App.",
@@ -67,7 +67,7 @@ const data = [
   {
     id: 7,
     image: IMG10,
-    title: "Reuben",
+    title: "Reuben(React Native, Ts)",
     github: "https://github.com/thechibuzor1/Reuben",
     demo: "https://mega.nz/file/UihFBKhD#7v-WyLQ-ZP0-VQlG_a7cvFHRB42VLoQVOZ3jWa8bLUI",
     description:
@@ -76,7 +76,7 @@ const data = [
   {
     id: 8,
     image: IMG5,
-    title: "Uber Eats Clone",
+    title: "Uber Eats Clone(React Native, Js, Firebase)",
     github: "https://github.com/thechibuzor1/UberEats-v1.1",
     demo: "https://mega.nz/file/c7xRQRqb#YboEM33nWS1pTa2mLCK3FLxWLltw3rCOcAECMxfSXfg",
     description:
@@ -85,7 +85,7 @@ const data = [
   {
     id: 9,
     image: IMG3,
-    title: "Chat App",
+    title: "Chat App(ReactJs)",
     github: "https://github.com/thechibuzor1/chat-app",
     demo: "https://project-chat-webapp.netlify.app/",
     description:
@@ -94,7 +94,7 @@ const data = [
   {
     id: 10,
     image: IMG1,
-    title: "Weather App",
+    title: "Weather App(React Native, Js)",
     github: "https://github.com/thechibuzor1/Weather-app",
     demo: "https://mega.nz/file/Z25QDaiL#eTayeLHawh_BN6E6eW8ux3i--h1o5YN9NFByFjF99hY",
     description: "A Simple UI Weather App Written In React Native.",
@@ -103,7 +103,7 @@ const data = [
   {
     id: 11,
     image: IMG4,
-    title: "Todo App",
+    title: "Todo App(React Native, Js)",
     github: "https://github.com/thechibuzor1/Todo-list",
     demo: "https://mega.nz/file/ByQjST5Z#kpreAj0QBEE0M_jhFNTr4ente-p8TYjwGeoHCurJdAQ",
     description:

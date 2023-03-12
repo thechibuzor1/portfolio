@@ -10,6 +10,7 @@ import IMG7 from "../../assests/netflixApp.jpg";
 import IMG8 from "../../assests/Spot.png";
 import IMG9 from "../../assests/twitter.png";
 import IMG10 from "../../assests/octocat.png";
+import IMG11 from "../../assests/pills.png";
 
 const data = [
   {
@@ -23,6 +24,15 @@ const data = [
   },
   {
     id: 2,
+    image: IMG11,
+    title: "Take Your Pills!(APK)",
+    github: "https://github.com/thechibuzor1/takeyourpills",
+    demo: "https://mega.nz/file/5nJVUR7B#V_o24DS_gjXlnrPztOFAR1p_WWKNpFH3WvFuOqIYPOk",
+    description:
+      "A medication tracker that reduces the risk of at risk patients of over medicating or forgetting to take their medication. Written in react native, typeScript.",
+  },
+  {
+    id: 3,
     image: IMG7,
     title: "Netflix Clone(APK)",
     github: "https://github.com/thechibuzor1/Netflix-app-react-native",
@@ -31,7 +41,7 @@ const data = [
       "A Full Stack Netflix Clone Written in React Native With MongoDb and nodejs backend.",
   },
    {
-    id: 3,
+    id: 4,
     image: IMG9,
      title: "Twitter 2.0",
     github: "https://github.com/thechibuzor1/NextJs-twitter",
@@ -39,7 +49,7 @@ const data = [
     description: "A NextJs and TailwindCSS build based off Twitter Ui with next auth, cloudinary API and sanity backend",
   },
   {
-    id: 4,
+    id: 5,
     image: IMG8,
      title: "Spotify Remote Contoller",
     github: "https://github.com/thechibuzor1/nextJs-spotify",
@@ -47,7 +57,7 @@ const data = [
     description: "A NextJs and TailwindCSS build connected to SpotifyApi with NextAuth, Middleware and Recoil (Must have a spotify account to use).",
   },
   {
-    id: 5,
+    id: 6,
     image: IMG2,
     title: "Project Gym",
     github: "https://github.com/thechibuzor1/project_gym",
@@ -55,7 +65,7 @@ const data = [
     description: "A Full Stack MERN E-commerce Gym Web App.",
   },
   {
-    id: 6,
+    id: 7,
     image: IMG10,
     title: "Reuben",
     github: "https://github.com/thechibuzor1/Reuben",
@@ -64,7 +74,7 @@ const data = [
       "A Personalized Workout Routine App With Push Notifications Written In React Native.",
   },
   {
-    id: 7,
+    id: 8,
     image: IMG5,
     title: "Uber Eats Clone",
     github: "https://github.com/thechibuzor1/UberEats-v1.1",
@@ -73,7 +83,7 @@ const data = [
       "A Restuarant E-commerce App Written in React Native With Firebase Database and authentication.",
   },
   {
-    id: 8,
+    id: 9,
     image: IMG3,
     title: "Chat App",
     github: "https://github.com/thechibuzor1/chat-app",
@@ -82,7 +92,7 @@ const data = [
       "A Full Stack Realtime Chat Messaging App With Authentication & SMS Notification.",
   },
   {
-    id: 9,
+    id: 10,
     image: IMG1,
     title: "Weather App",
     github: "https://github.com/thechibuzor1/Weather-app",
@@ -91,7 +101,7 @@ const data = [
   },
 
   {
-    id: 10,
+    id: 11,
     image: IMG4,
     title: "Todo App",
     github: "https://github.com/thechibuzor1/Todo-list",

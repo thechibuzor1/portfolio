@@ -23,7 +23,7 @@ const Header = () => {
             "6ft 2...",
             "Specialized in React and React Native",
             "Creative",
-            "Can bench 225lb...",
+            "Able to bench 225lb...",
             "Chibuzor Moses",
           ]}
           multiTextDelay={1000}

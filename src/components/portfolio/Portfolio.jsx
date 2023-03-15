@@ -11,6 +11,7 @@ import IMG8 from "../../assests/Spot.png";
 import IMG9 from "../../assests/twitter.png";
 import IMG10 from "../../assests/octocat.png";
 import IMG11 from "../../assests/pills.png";
+import { Bounce } from "react-reveal";
 
 const data = [
   {
@@ -40,21 +41,23 @@ const data = [
     description:
       "A Full Stack Netflix Clone Written in React Native With MongoDb and nodejs backend.",
   },
-   {
+  {
     id: 4,
     image: IMG9,
-     title: "Twitter 2.0(Next Js, Sanity)",
+    title: "Twitter 2.0(Next Js, Sanity)",
     github: "https://github.com/thechibuzor1/NextJs-twitter",
     demo: "https://nextjstwitter.vercel.app/",
-    description: "A NextJs and TailwindCSS build based off Twitter Ui with next auth, cloudinary API and sanity backend",
+    description:
+      "A NextJs and TailwindCSS build based off Twitter Ui with next auth, cloudinary API and sanity backend",
   },
   {
     id: 5,
     image: IMG8,
-     title: "Spotify Remote Contoller(Next Js)",
+    title: "Spotify Remote Contoller(Next Js)",
     github: "https://github.com/thechibuzor1/nextJs-spotify",
     demo: "https://spotify-remote-controller.vercel.app/",
-    description: "A NextJs and TailwindCSS build connected to SpotifyApi with NextAuth, Middleware and Recoil (Must have a spotify account to use).",
+    description:
+      "A NextJs and TailwindCSS build connected to SpotifyApi with NextAuth, Middleware and Recoil (Must have a spotify account to use).",
   },
   {
     id: 6,
@@ -120,31 +123,33 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         {data.map(({ id, image, title, github, demo, description }) => {
           return (
-            <article key={id} className="portfolio__item">
-              <div className="portfolio__item-image">
-                <img src={image} alt={title} />
-              </div>
-              <h3>{title}</h3>
-              <h5 className="text-light">{description}</h5>
-              <div className="portfolio__item-cta">
-                <a
-                  href={github}
-                  target="_blank"
-                  className="btn"
-                  rel="noopener noreferrer"
-                >
-                  Github
-                </a>
-                <a
-                  href={demo}
-                  className="btn btn-primary"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Demo App
-                </a>
-              </div>
-            </article>
+            <Bounce key={id} top>
+              <article key={id} className="portfolio__item">
+                <div className="portfolio__item-image">
+                  <img src={image} alt={title} />
+                </div>
+                <h3>{title}</h3>
+                <h5 className="text-light">{description}</h5>
+                <div className="portfolio__item-cta">
+                  <a
+                    href={github}
+                    target="_blank"
+                    className="btn"
+                    rel="noopener noreferrer"
+                  >
+                    Github
+                  </a>
+                  <a
+                    href={demo}
+                    className="btn btn-primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Demo App
+                  </a>
+                </div>
+              </article>
+            </Bounce>
           );
         })}
       </div>

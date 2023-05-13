@@ -64,7 +64,7 @@ const data = [
     image: IMG2,
     title: "Project Gym(ReactJs, NodeJs, MongoDb)",
     github: "https://github.com/thechibuzor1/project_gym",
-    demo: "https://project-gym-app.herokuapp.com/",
+    demo: "https://projectgym.onrender.com",
     description: "A Full Stack MERN E-commerce Gym Web App.",
   },
   {

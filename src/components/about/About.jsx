@@ -37,7 +37,7 @@ const About = () => {
             </Bounce>
             <Bounce left>
               <a
-                href="http://thechibuzorart.netlify.app/"
+                href="https://photos.app.goo.gl/nHhLTZDq8QF61dmAA"
                 target="_blank"
                 rel="noopener noreferrer"
               >

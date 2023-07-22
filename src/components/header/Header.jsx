@@ -3,6 +3,7 @@ import "./Header.css";
 import CTA from "./CTA";
 import TypeWriterEffect from "react-typewriter-effect";
 import HeaderSocials from "./HeaderSocials";
+import WaterDrop from "../waterDrop/WaterDrop";
 
 const Header = () => {
   return (
@@ -35,6 +36,7 @@ const Header = () => {
         <a href="#contact" className="scroll__down">
           Scroll Down
         </a>
+        <WaterDrop />
       </div>
     </header>
   );

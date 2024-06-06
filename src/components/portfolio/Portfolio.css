@@ -1,52 +1,96 @@
 .portfolio__container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+.projects {
+  font-family: "Comic";
 }
 
+.projects h2 {
+  font-size: calc(4 * 1vmax);
+
+  color: var(--color-primary);
+}
+.projects h1 {
+  font-size: calc(2 * 1vmax);
+  font-weight: bold;
+}
+
+.projects h3 {
+  font-size: calc(1.7 * 1vmax);
+  font-weight: 500;
+}
+.projects p {
+  font-size: calc(1.5 * 1vmax);
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Default to 2 columns */
+  grid-gap: 1rem; /* Adjust the gap between grid items */
+}
+
+.grid-container-web{
+  display: grid;
+  grid-template-columns: 1fr; /* Single column layout */
+  grid-gap: 10px; /* Adjust the gap between grid items */
+}
+
+.grid-item img {
+  width: 100%; /* Ensure images fill their container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove bottom space under images */
+  border-radius: 0.35rem;
+}
+ 
 .portfolio__item {
-    background: var(--color-bg-variant);
-    padding: 1.2rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-    transition: var(--transition);
+  padding: 1.2rem;
+  box-shadow: 10px 10px 0px 0px #000000;
+  border: 1px solid #000;
+  transition: var(--transition);
 }
 
-.portfolio__item:hover{
+/* .portfolio__item:hover{
     border-color: var(--color-primary-variant);
     background: transparent;
 }
-
+ */
 .portfolio__item-image {
-    border-radius: 1.5rem;
-    overflow: hidden;
+  overflow: hidden;
 }
 
-.portfolio__item h3{
-    margin: 1.2rem 0 2rem;
+.portfolio__item h3 {
+  margin: 1.2rem 0 2rem;
 }
 
-.portfolio__item-cta{
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
-} 
+.portfolio__item-cta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
 
-.portfolio__item h5{
-    margin-bottom: 30px;
+.portfolio__item h5 {
+  margin-bottom: 30px;
 }
 
 /*  MEDIA QUERIES (MEDIUM DEVICES) */
- @media screen and (max-width: 1024px) {
-   .portfolio__container{
-        grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
-    }
-} 
+@media screen and (max-width: 1024px) {
+  .portfolio__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+  .grid-container {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* Change to 3 columns on larger screens */
+  }
+}
 /*  MEDIA QUERIES (SMALL DEVICES) */
- @media screen and (max-width: 600px) {
-    .portfolio__container{
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
-} 
+@media screen and (max-width: 600px) {
+  .portfolio__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+}

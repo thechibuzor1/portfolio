@@ -1,11 +1,20 @@
 footer {
-  background: var(--color-primary);
+  border-top: 1px solid var(--color-primary);
   padding: 3rem 0;
-  text-align: center;
-  font-size: 0.9rem;
+  background: #000;
   margin-top: 7rem;
+  font-size: calc(1.5 * 1vmax);
+}
+.footer__copyright a {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 2.5px;
 }
 .footer__copyright {
   margin-bottom: 4rem;
+  display: flex;
+  gap: calc(1.5 * 1vmax);;
+  flex-direction: row;
   color: var(--color-bg);
 }

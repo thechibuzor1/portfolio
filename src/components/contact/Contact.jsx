@@ -3,11 +3,11 @@ import React, { useRef } from "react";
 import "./Contact.css";
 import { HiOutlineMail } from "react-icons/hi";
 import { SiWhatsapp } from "react-icons/si";
-import emailjs from "emailjs-com";
-import { Bounce } from "react-reveal";
+ 
+ 
 
 const contact = () => {
-  const form = useRef();
+ /*  const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -19,14 +19,39 @@ const contact = () => {
     );
     e.target.reset();
   };
-
+ */
   return (
     <section id="contact">
-      <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
+      <div className="container experience__container">
+        <h2>Contact</h2>
+        <h3>
+          You can reach me through{" "}
+          <a
+            href="mailto:chibuzormoses20@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            chibuzormoses20[at]gmail[dot]com
+          </a>
+          .
+        </h3>
+        <br />
 
-      <div className="container contact__container">
-        <Bounce left>
+        <iframe
+          title="Spotify"
+          style={{ borderRadius: 12 }}
+          src="https://open.spotify.com/embed/playlist/2eT2OvPbOtCXCArGFMODTx?utm_source=generator"
+          width="100%"
+          height="400"
+          frameBorder="0"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        ></iframe>
+      </div>
+
+      {/*   <div className="container contact__container">
+        <Zoom>
           <div className="contact__options">
             <article className="contact__option">
               <HiOutlineMail className="contact__option-icon" />
@@ -53,8 +78,8 @@ const contact = () => {
               </a>
             </article>
           </div>
-        </Bounce>
-        <Bounce right>
+        </Zoom>
+        <Zoom>
           <form ref={form} onSubmit={sendEmail}>
             <input
               type="text"
@@ -78,8 +103,8 @@ const contact = () => {
               Send
             </button>
           </form>
-        </Bounce>
-      </div>
+        </Zoom>
+      </div> */}
     </section>
   );
 };

@@ -56,14 +56,23 @@ const About = () => {
             When I'm not knee-deep in code, you'll probably find me immersed in
             one of my many hobbies. I'm a big fan of video games and love
             exploring new worlds and stories. Comics and manga are another
-            passion of mine— there's nothing like a good manga to get
-            lost in (i.e ONE PUNCH MAN).
+            passion of mine— there's nothing like a good manga to get lost in
+            (i.e ONE PUNCH MAN).
             <br />
             <br />
             On the creative side, I enjoy drawing whenever I get the chance.
             It's a great way to unwind and let my imagination run wild.
           </p>
-         {/*  <a href="#contact" className="btn btn-primary">
+          <a
+            className="btn btn-primary"
+            href="https://photos.app.goo.gl/nHhLTZDq8QF61dmAA"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Check out my art🧍🏾
+          </a>
+
+          {/*  <a href="#contact" className="btn btn-primary">
             Let's Talk
           </a> */}
         </div>

@@ -3,11 +3,9 @@ import React, { useRef } from "react";
 import "./Contact.css";
 import { HiOutlineMail } from "react-icons/hi";
 import { SiWhatsapp } from "react-icons/si";
- 
- 
 
 const contact = () => {
- /*  const form = useRef();
+  /*  const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -42,11 +40,11 @@ const contact = () => {
           style={{ borderRadius: 12 }}
           src="https://open.spotify.com/embed/playlist/2eT2OvPbOtCXCArGFMODTx?utm_source=generator"
           width="100%"
-          height="400"
           frameBorder="0"
           allowfullscreen=""
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           loading="lazy"
+          className="spotify"
         ></iframe>
       </div>
 

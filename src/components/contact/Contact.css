@@ -39,9 +39,7 @@
   color: var(--color-light);
 }
 .spotify {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Default to 2 columns */
-  grid-gap: 1rem; /* Adjust the gap between grid items */
+  height: 400px;
 }
 /* Form */
 
@@ -79,5 +77,8 @@ textarea {
   }
   .spotify {
     grid-template-columns: 1fr;
+  }
+  .spotify {
+    height: 200px;
   }
 }

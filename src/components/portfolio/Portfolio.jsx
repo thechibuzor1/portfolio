@@ -112,6 +112,74 @@ const Portfolio = () => {
         <h2>Projects</h2>
         <div>
           <br />
+          <h1>Tiktok Community</h1>
+          <h3>Android - Kotlin. Firebase. Material UI.</h3>
+          <p>
+            My first native android app. TikTok Community is a social media
+            application combining features from both Twitter and TikTok. Users
+            can post short videos and photos, interact through likes and
+            comments, and follow other users in a dynamic feed.
+          </p>
+        </div>
+        <br />
+        <div class="grid-container">
+          <div class="grid-item">
+            <img src={require("../../assests/tiktok/1.jpg")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/tiktok/2.jpg")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/tiktok/3.jpg")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/tiktok/4.jpg")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/tiktok/5.jpg")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/tiktok/6.jpg")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/tiktok/7.jpg")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/tiktok/8.jpg")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/tiktok/9.jpg")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/tiktok/10.jpg")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/tiktok/11.jpg")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/tiktok/12.jpg")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/tiktok/13.jpg")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/tiktok/14.jpg")} alt="iva 1" />
+          </div>
+        </div>
+        <br />
+        <a
+          href={
+            "https://github.com/thechibuzor1/Tiktok-Community"
+          }
+          className="btn btn-primary"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View More - Source code
+        </a>
+        <br />_
+        <div>
+          <br />
           <h1>Innovasion Academy</h1>
           <h3>Android/iOS - ReactNative. Expo. Typescript.</h3>
           <p>
@@ -267,6 +335,17 @@ const Portfolio = () => {
             />
           </div>
         </div>
+        <br />
+        <a
+          href={
+            "https://github.com/thechibuzor1/wanderhub"
+          }
+          className="btn btn-primary"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View More - Source code
+        </a>
         <br />_
         <div>
           <br />
@@ -304,6 +383,17 @@ const Portfolio = () => {
             <img src={require("../../assests/pw/pw9.jpg")} alt="iva 8" />
           </div>
         </div>
+        <br />
+        <a
+          href={
+            "https://github.com/thechibuzor1/PennywisePlanner"
+          }
+          className="btn btn-primary"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View More - Source code
+        </a>
         <br />_
         <div>
           <br />

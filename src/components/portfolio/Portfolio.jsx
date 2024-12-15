@@ -110,6 +110,78 @@ const Portfolio = () => {
     <section id="portfolio">
       <div className="container projects">
         <h2>Projects</h2>
+
+        <div>
+          <br />
+          <h1>Track Pulse</h1>
+          <h3>Android - Kotlin. Room (DAO). Material UI</h3>
+          <p>
+             Track pulse is a lightweight offline audio player designed with Material UI dynamic color scheme, leveraging a DAO database for efficient playlist management and a robust notification media service for seamless audio playback controls.
+          </p>
+        </div>
+        <br />
+        <div class="grid-container">
+          <div class="grid-item">
+            <img src={require("../../assests/tp/1.jpg")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/tp/2.jpg")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/tp/3.jpg")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/tp/4.jpg")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/tp/5.jpg")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/tp/6.jpg")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/tp/7.jpg")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/tp/8.jpg")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/tp/9.jpg")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/tp/10.jpg")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/tp/11.jpg")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/tp/12.jpg")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/tp/13.jpg")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/tp/14.jpg")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/tp/15.jpg")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/tp/16.jpg")} alt="iva 1" />
+          </div>
+        </div>
+        <br />
+        <a
+          href={
+            "https://github.com/thechibuzor1/TrackPulse"
+          }
+          className="btn btn-primary"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View More - Source code
+        </a>
+        <br />_
         <div>
           <br />
           <h1>Tiktok Community</h1>

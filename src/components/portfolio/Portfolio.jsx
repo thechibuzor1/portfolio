@@ -467,36 +467,6 @@ const Portfolio = () => {
           View More - Source code
         </a>
         <br />_
-        <div>
-          <br />
-          <h1>Reuben</h1>
-          <h3>Android/iOS - ReactNative. Typescript</h3>
-          <p>A lightweight daily workout routine app.</p>
-        </div>
-        <br />
-        <div class="grid-container">
-          <div class="grid-item">
-            <img src={require("../../assests/r/r1.jpg")} alt="iva 1" />
-          </div>
-          <div class="grid-item">
-            <img src={require("../../assests/r/r2.jpg")} alt="iva 2" />
-          </div>
-          <div class="grid-item">
-            <img src={require("../../assests/r/r3.jpg")} alt="iva 3" />
-          </div>
-        </div>
-        <br />
-        <a
-          href={
-            "https://mega.nz/file/UihFBKhD#7v-WyLQ-ZP0-VQlG_a7cvFHRB42VLoQVOZ3jWa8bLUI"
-          }
-          className="btn btn-primary"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          View More - Preview 'Reuben'
-        </a>
-        <br />_
       </div>
 
       {/*  <div className="container portfolio__container">

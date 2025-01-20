@@ -25,11 +25,11 @@ const contact = () => {
         <h3>
           You can reach me through{" "}
           <a
-            href="mailto:chibuzormoses20@gmail.com"
+            href="mailto:igbuduchibuzormoses@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            chibuzormoses20[at]gmail[dot]com
+            igbuduchibuzormoses[at]gmail[dot]com
           </a>
           .
         </h3>

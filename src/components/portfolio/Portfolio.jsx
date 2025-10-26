@@ -110,13 +110,71 @@ const Portfolio = () => {
     <section id="portfolio">
       <div className="container projects">
         <h2>Projects</h2>
-
+        <div>
+          <br />
+          <h1>Subnotify</h1>
+          <h3>
+            React Native - Expo, .NET 8, PostgreSQL, Firebase FCM, Hangfire
+          </h3>
+          <p>
+            Subnotify is a full-stack subscription management app that
+            proactively notifies users about upcoming renewals to prevent
+            unexpected charges. Built with a React Native frontend and .NET 8
+            backend, it features automated daily checks using Hangfire and
+            delivers push notifications via Firebase Cloud Messaging for both
+            manual payment reminders and automatic charge alerts.{" "}
+          </p>
+        </div>
+        <br />
+        <div class="grid-container">
+          <div class="grid-item">
+            <img src={require("../../assests/sn/sn1.png")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/sn/sn2.png")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/sn/sn3.png")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/sn/sn4.png")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/sn/sn5.png")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/sn/sn6.png")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/sn/sn7.png")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/sn/sn8.png")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/sn/sn9.png")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/sn/sn10.png")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/sn/sn11.png")} alt="iva 1" />
+          </div>
+          <div class="grid-item">
+            <img src={require("../../assests/sn/sn12.png")} alt="iva 1" />
+          </div>
+        </div>
+       
+        <br />_
         <div>
           <br />
           <h1>Track Pulse</h1>
           <h3>Android - Kotlin. Room (DAO). Material UI</h3>
           <p>
-             Track pulse is a lightweight offline audio player designed with Material UI dynamic color scheme, leveraging a DAO database for efficient playlist management and a robust notification media service for seamless audio playback controls.
+            Track pulse is a lightweight offline audio player designed with
+            Material UI dynamic color scheme, leveraging a DAO database for
+            efficient playlist management and a robust notification media
+            service for seamless audio playback controls.
           </p>
         </div>
         <br />
@@ -172,9 +230,7 @@ const Portfolio = () => {
         </div>
         <br />
         <a
-          href={
-            "https://github.com/thechibuzor1/TrackPulse"
-          }
+          href={"https://github.com/thechibuzor1/TrackPulse"}
           className="btn btn-primary"
           target="_blank"
           rel="noopener noreferrer"
@@ -238,17 +294,7 @@ const Portfolio = () => {
             <img src={require("../../assests/tiktok/14.jpg")} alt="iva 1" />
           </div>
         </div>
-        <br />
-        <a
-          href={
-            "https://github.com/thechibuzor1/Tiktok-Community"
-          }
-          className="btn btn-primary"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          View More - Source code
-        </a>
+       
         <br />_
         <div>
           <br />
@@ -409,9 +455,7 @@ const Portfolio = () => {
         </div>
         <br />
         <a
-          href={
-            "https://github.com/thechibuzor1/wanderhub"
-          }
+          href={"https://github.com/thechibuzor1/wanderhub"}
           className="btn btn-primary"
           target="_blank"
           rel="noopener noreferrer"
@@ -457,9 +501,7 @@ const Portfolio = () => {
         </div>
         <br />
         <a
-          href={
-            "https://github.com/thechibuzor1/PennywisePlanner"
-          }
+          href={"https://github.com/thechibuzor1/PennywisePlanner"}
           className="btn btn-primary"
           target="_blank"
           rel="noopener noreferrer"

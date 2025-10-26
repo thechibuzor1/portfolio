@@ -14,7 +14,7 @@ const Footer = () => {
           <BsGithub /> github
         </a>
         <a
-          href="https://www.linkedin.com/in/chibuzor-moses-311b44173/"
+          href="https://www.linkedin.com/in/chibuzor-moses-60961738a/"
           target="_blank"
           rel="noopener noreferrer"
         >
